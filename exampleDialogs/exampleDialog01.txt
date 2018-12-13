@@ -1,0 +1,14 @@
+meta version=1.0 author=Jonas description=Example language=de
+
+// Init Personen
+speaker Erzähler1
+
+"Das ist ein ganz normaler Monolog."
+
+speaker Erzähler2
+"Oder doch nicht?"
+
+speaker Erzähler1
+"Wunderbar wir sind zu zweit!"
+
+end

@@ -2,9 +2,11 @@
 Dialog simple language to write game dialogs.
 
 ## Version
+------
 v0.1 (Gedankenexperiment)
 
 ## Idee
+------
 Einfache Sprache um Dialoge fuer Video Spiele zu schreiben.
 
 Script für Sprachen verwaltung.
@@ -12,6 +14,7 @@ Script für Sprachen verwaltung.
 Schnittstellen für verschiedenen Sprachen.
 
 ## Anforderungen
+------
 1) Intuitiv zu speichern
 2) einfach zu schreiben & einfach auszulesen
 3) Variablen, Funktionen und Entscheidungen
@@ -19,6 +22,7 @@ Schnittstellen für verschiedenen Sprachen.
 5) Pausen
 
 ## Syntax
+------
 ### Kommentare
 ```
 meta version=1.0 author=Vor+Nachname
@@ -85,14 +89,6 @@ else:
 ```
 
 ### Personen / Gesprächsteilnehmer
-Sprecher initalisieren
-
-```
-Person 1Name
-Person 2Name+Nachname
-...
-Person nName
-```
 
 aktuellen Sprecher wechseln
 ```
@@ -106,12 +102,9 @@ pause seconds
 
 
 ## Beispiel
+------
 ```
 meta version=1.0 author=Jonas+Nachname
-
-// Init Person
-Person Emil+Manfred
-Person Felix
 
 speaker Emil+Manfred
 

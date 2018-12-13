@@ -1,0 +1,10 @@
+meta version=1.0 author=Jonas description=Example+Monolog language=de
+
+// Init Personen
+speaker Ich+Erzähler
+
+"Das ist ein ganz normaler Monolog."
+"Ich kann so viel reden."
+"Wunderbar!"
+
+end

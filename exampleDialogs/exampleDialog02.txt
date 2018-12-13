@@ -1,0 +1,45 @@
+meta version=1.0 author=Jonas description=Everything language=de
+
+speaker Emil+Manfred
+
+"Hi my name is Emil!"
+"How are you?"
+
+choice "Good":
+    goto Good
+
+choice "Bad":
+    goto Bad
+
+label Good:
+    speaker Felix
+    "Oh that sounds good!"
+    speaker Emil
+    goto continue
+
+label Bad:
+    "Sorry uncool."
+
+label continue:
+  "How old are you?"
+
+// Gets the age from the user
+$ age = getAge()
+
+if age >= 100:
+    "You are the oldest person that i know.."
+elif age == 50:
+    "Whouz..."
+else:
+    "Still a youg one!"
+
+"So you are { age } Years old."
+"Thats fascinating"
+
+playFascinatingSong() // Plays a fascinating song in the Background
+
+pause 0.5
+
+"Well have a nice day"
+
+end
